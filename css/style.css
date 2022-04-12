@@ -255,7 +255,6 @@ header {
 
 
 
-
 /*--------------Footer------------------------*/
 
 .footer {
@@ -534,35 +533,12 @@ height: 50px;
 
 /*--------------------header----------------------*/
 
-.body-tym {
-  background: linear-gradient(#141e30, #212042);
+
+
+.banner-productos {
+  background-color: linear-gradient(#141e30, #212042);
 }
 
-
-
-
-/* -------------Fin menú------------------------------ */
-
-.teclado-box {
-  display: flex;
-  justify-content: center;
-}
-
-.mouse-box {
-  display: flex;
-  justify-content: center;
-}
-
-.mouse-oficina {
-  display: flex;
-  justify-content: center;
-}
-
-
-.mousepad-box {
-  display: flex;
-  justify-content: center;
-}
 /* ---------------footer-------------- */
 
 .footer-tym {
