@@ -45,49 +45,32 @@ a {
 
 /*--------------------header----------------------*/
 
-.hr-header {
-  height: 2px;
-  background-color: #d2d5e1;
-}
-
-.header-container {
-  width: 100%;
-  background: linear-gradient(#141e30, #212042);
+header {
   display: flex;
   justify-content: space-between;
-  
-}
-
-.logo-tamaño {
-  width: 8%;
-  margin-left: 10px;
-  margin-top: 10px;
+  height: 50px;
+  background: linear-gradient(#141e30, #212042);
+  padding-left: 30px;
   padding-right: 30px;
+  width: 100%;
 }
 
-.sesión {
-  font-family: 'Poppins', sans-serif;
-  color: #FFFFFF;
+.logo-header {
+  height: 50px;
 }
 
-.texto-header {
-  padding-right: 20px;
-  font-weight: 600;
-  color: #ffffff;
+.sesion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .perfil {
-  height: 70%;
-  width: 10%;
-  padding-top: 15px;
-  position: relative;
+  height: 25px;
 }
 
 .carrito {
-  height: 60%;
-  width: 10%;
-  padding-top: 10px;
-  position: relative;
+  height: 25px;
 }
 
 /*----------------------Menú -------------------------------*/
@@ -121,69 +104,9 @@ a {
 /* -------------Fin menú------------------------------ */
 
 
-
-
-/* carrusel de img, lo vi en un video de youtube así que decidí integrarlo para una mejor experiencia*/
-@keyframes slidy {
-  0% {
-    left: 0%;
-  }
-
-  20% {
-    left: 0%;
-  }
-
-  25% {
-    left: -100%;
-  }
-
-  45% {
-    left: -100%;
-  }
-
-  50% {
-    left: -200%;
-  }
-
-  70% {
-    left: -200%;
-  }
-
-  75% {
-    left: -300%;
-  }
-
-  95% {
-    left: -300%;
-  }
-
-  100% {
-    left: -400%;
-  }
-}
-
-div#slider {
-  overflow: hidden;
-}
-
-div#slider figure img {
-  width: 20%;
-  float: left;
-}
-
-div#slider figure {
-  position: relative;
-  left: 0;
-  width: 500%;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite;
-}
-
 .banner-index {
-  padding-bottom: 5px;
+  width: auto;
 }
-
 
 
 /*---------------sección de imágenes----------------*/
@@ -380,8 +303,7 @@ div#slider figure {
 }
 
 .logo-footer {
-  width: 15%;
-  height: 19%;
+height: 50px;
 }
 
 /* REDES footer: https://codepen.io/miguelcast/pen/pwZMOJ */
@@ -615,61 +537,14 @@ div#slider figure {
 .body-tym {
   min-height: 100vh;
   background-color: #fff;
-  display: grid;
-  grid-template-areas: 
-  "header header header"
-  "menu menu menu"
-  "aside-teclados teclados teclados"
-  "aside-mouse mouse mouse"
-  "aside-mouse-o mouseo mouse-o"
-  "aside-mousepad mousepad mousepad"
-  "footer footer footer"
-  ;
 }
 
-.hr-header {
-  height: 2px;
-  background-color: #d2d5e1;
-}
 
 .header-tym {
-  grid-area: header;
   width: 100%;
   background: linear-gradient(#141e30, #212042);
   display: flex;
   justify-content: space-between;
-}
-
-.logo-tamaño {
-  width: 8%;
-  margin-left: 10px;
-  margin-top: 10px;
-  padding-right: 30px;
-}
-
-.sesión {
-  font-family: 'Poppins', sans-serif;
-  color: #FFFFFF;
-}
-
-.texto-header {
-  padding-right: 20px;
-  font-weight: 600;
-  color: #ffffff;
-}
-
-.perfil {
-  height: 70%;
-  width: 10%;
-  padding-top: 15px;
-  position: relative;
-}
-
-.carrito {
-  height: 60%;
-  width: 10%;
-  padding-top: 10px;
-  position: relative;
 }
 
 /*----------------------Menú -------------------------------*/
@@ -702,54 +577,29 @@ div#slider figure {
 
 /* -------------Fin menú------------------------------ */
 
-
-.aside-tym {
-  grid-area: aside-tym;
-}
-.aside-teclados {
-  grid-area: aside-teclados;
-}
-
-.aside-mouse {
-  grid-area: aside-mouse;
-}
-
-.aside-mouse-o {
-  grid-area: aside-mouse-o;
-}
-
-.aside-mousepad {
-  grid-area: aside-mousepad;
-}
-
 .teclado-box {
-  grid-area: teclados;
   display: flex;
   justify-content: center;
 }
 
 .mouse-box {
-  grid-area: mouse;
   display: flex;
   justify-content: center;
 }
 
 .mouse-oficina {
-  grid-area: mouse-o;
   display: flex;
   justify-content: center;
 }
 
 
 .mousepad-box {
-  grid-area: mousepad ;
   display: flex;
   justify-content: center;
 }
 /* ---------------footer-------------- */
 
 .footer-tym {
-  grid-area: footer;
   width: 100%;
   background: linear-gradient(#141e30, #212042);
   display: flex;
@@ -791,11 +641,6 @@ div#slider figure {
   text-align: center;
   line-height: 30px;
   font-weight: 600;
-}
-
-.logo-footer {
-  width: 15%;
-  height: 19%;
 }
 
 /* REDES footer: https://codepen.io/miguelcast/pen/pwZMOJ */
