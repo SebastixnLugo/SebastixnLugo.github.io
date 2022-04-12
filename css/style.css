@@ -202,6 +202,14 @@ div#slider figure {
   flex-wrap: wrap-reverse;
 }
 
+.zoom {
+  transition: transform .3s; 
+}
+
+.zoom:hover {
+  transform: scale(1.05); 
+}
+
 /*fin sección de imágenes*/
 
 /* ----------Productos con animaciones----------------- */
