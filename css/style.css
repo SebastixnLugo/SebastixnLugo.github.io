@@ -616,8 +616,6 @@ height: 50px;
 .carrito-carrusel-1 {
   display: flex;
   justify-content: center;
-
-  position: relative;
   bottom: 42rem;
 }
 
@@ -637,7 +635,6 @@ height: 50px;
 .carrito-carrusel-2 {
   display: flex;
   justify-content: center;
-  position: relative;
   bottom: 32rem;
   left: 12rem;
 }
@@ -852,14 +849,13 @@ height: 50px;
   align-items: center;
   justify-content: space-around;
   font-size: xx-large;
-  position: relative;
   left: 10rem;
   text-decoration: none;
   list-style: none;
   font-style: italic;
   color: #FFFFFF;
   background-color: #212042;
-  margin: 4rem 250px;
+  margin: 3rem 250px;
   padding: 0.5rem;
   bottom: 45rem;
   line-height: 10rem;
@@ -1057,6 +1053,8 @@ height: 50px;
   font-style: italic;
   font-size: large;
   color: #FFFFFF;
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
