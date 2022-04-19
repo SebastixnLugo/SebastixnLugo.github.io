@@ -57,7 +57,7 @@ header {
   background: linear-gradient(#141e30, #212042);
   padding-left: 30px;
   padding-right: 30px;
- 
+
 }
 
 .logo-header {
@@ -142,11 +142,11 @@ header {
 }
 
 .zoom {
-  transition: transform .3s; 
+  transition: transform .3s;
 }
 
 .zoom:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 /*fin sección de imágenes*/
@@ -163,7 +163,7 @@ header {
   padding-bottom: 20px;
 }
 
-.product1{
+.product1 {
   width: auto;
   color: #000;
   padding-top: 5rem;
@@ -181,7 +181,7 @@ header {
   padding-top: 3rem;
 }
 
-.product2{
+.product2 {
   width: 100%;
   color: #000;
   padding-top: 5rem;
@@ -237,6 +237,7 @@ header {
   margin-left: 40px;
   line-height: 60px;
 }
+
 .p-product {
   font-family: 'Poppins', sans-serif;
   color: #212042;
@@ -260,14 +261,14 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
-  }
+}
 
-  .botón:hover{
-    opacity: 0.6;
-    text-decoration: none;
-  }
+.botón:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
 
-  /* botón From uiverse.io */
+/* botón From uiverse.io */
 .fancy {
   background-color: transparent;
   border: 2px solid #000;
@@ -289,9 +290,9 @@ header {
   transition: all 0.3s ease-in-out;
   user-select: none;
   font-size: 13px;
- }
- 
- .fancy::before {
+}
+
+.fancy::before {
   content: " ";
   width: 1.5625rem;
   height: 2px;
@@ -302,9 +303,9 @@ header {
   transform: translateY(-50%);
   transform-origin: center;
   transition: background 0.3s linear, width 0.3s linear;
- }
- 
- .fancy .text {
+}
+
+.fancy .text {
   font-size: 1.125em;
   line-height: 1.33333em;
   padding-left: 2em;
@@ -314,9 +315,9 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   color: black;
- }
- 
- .fancy .top-key {
+}
+
+.fancy .top-key {
   height: 2px;
   width: 1.5625rem;
   top: -2px;
@@ -324,9 +325,9 @@ header {
   position: absolute;
   background: #e8e8e8;
   transition: width 0.5s ease-out, left 0.3s ease-out;
- }
- 
- .fancy .bottom-key-1 {
+}
+
+.fancy .bottom-key-1 {
   height: 2px;
   width: 1.5625rem;
   right: 1.875rem;
@@ -334,9 +335,9 @@ header {
   position: absolute;
   background: #e8e8e8;
   transition: width 0.5s ease-out, right 0.3s ease-out;
- }
- 
- .fancy .bottom-key-2 {
+}
+
+.fancy .bottom-key-2 {
   height: 2px;
   width: 0.625rem;
   right: 0.625rem;
@@ -344,35 +345,35 @@ header {
   position: absolute;
   background: #e8e8e8;
   transition: width 0.5s ease-out, right 0.3s ease-out;
- }
- 
- .fancy:hover {
+}
+
+.fancy:hover {
   color: white;
   background: #212042;
- }
- 
- .fancy:hover::before {
+}
+
+.fancy:hover::before {
   width: 0.9375rem;
   background: white;
- }
- 
- .fancy:hover .text {
+}
+
+.fancy:hover .text {
   color: white;
   padding-left: 1.5em;
- }
- 
- .fancy:hover .top-key {
+}
+
+.fancy:hover .top-key {
   left: -2px;
   width: 0px;
- }
- 
- .fancy:hover .bottom-key-1,
-  .fancy:hover .bottom-key-2 {
+}
+
+.fancy:hover .bottom-key-1,
+.fancy:hover .bottom-key-2 {
   right: 0;
   width: 0;
- }
+}
 
-  
+
 
 /* ----------Fin de la sección productos con animaciones----------------- */
 
@@ -416,14 +417,14 @@ header {
   background: #f0f0f0;
   border-radius: 10px;
   text-align: center;
- }
- 
- .cartita:hover {
+}
+
+.cartita:hover {
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
   background-color: #212042;
- }
- 
- .cartita>.blob {
+}
+
+.cartita>.blob {
   height: 10px;
   width: 75%;
   border-radius: 0 0 30px 30px;
@@ -431,13 +432,13 @@ header {
   background-color: #212042;
   visibility: visible;
   transition: all 0.3s;
- }
- 
- .cartita:hover>.blob {
+}
+
+.cartita:hover>.blob {
   height: 0;
- }
- 
- .cartita>.img {
+}
+
+.cartita>.img {
   display: flex;
   margin: 30px auto 10px auto;
   width: 90px;
@@ -448,47 +449,48 @@ header {
   font-size: 11px;
   justify-content: center;
   align-items: center;
- }
- 
- .cartita:hover>.img {
+}
+
+.cartita:hover>.img {
   width: 100%;
   height: 70%;
   border-radius: 10px;
   margin: 0 auto;
   background-image: url("../img/IMG_20211111_000143059_HDR\ \(1\).jpg");
   background-size: cover;
- }
- 
- .cartita>h2 {
+}
+
+.cartita>h2 {
   padding: 15px 10px;
   font-size: 28px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- }
- 
- .cartita>span {
+}
+
+.cartita>span {
   font-size: 24px;
- }
- 
- .cartita:hover>h2 {
+}
+
+.cartita:hover>h2 {
   opacity: 0;
   position: absolute;
- }
+}
 
- .cartita>p {
+.cartita>p {
   opacity: 0;
   padding: 23px;
   position: absolute;
- }
+}
 
- .cartita>p>a {
+.cartita>p>a {
   padding-top: 3rem;
   padding: 7px;
- }
- 
- .cartita:hover>p {
+}
+
+.cartita:hover>p {
   opacity: 1;
- }
- /* .................................. */
+}
+
+/* .................................. */
 
 .centro-footer {
   text-align: center;
@@ -506,7 +508,7 @@ header {
 }
 
 .logo-footer {
-height: 50px;
+  height: 50px;
 }
 
 /* REDES footer: https://codepen.io/miguelcast/pen/pwZMOJ */
@@ -583,10 +585,12 @@ height: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .p-debajo-footer {
   font-size: smaller;
   color: #fff;
 }
+
 .logo-debajo-footer {
   width: 3%;
 }
@@ -1057,32 +1061,50 @@ height: 50px;
 
 
 
-/* MEDIA */
+/* --------------------------MEDIA---------------------------- */
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
   .cartita {
     display: none;
   }
+
   .mapas {
     display: none;
   }
+
   .redes-header {
     display: none;
   }
+
+  .img-superior {
+    width: max-content;
+  }
+  .debajo-footer {
+    display: none;
+  }
+  .logo-debajo-footer {
+    visibility: hidden;
+  }
 }
 
-@media screen and (max-width: 820px){
+@media screen and (max-width: 820px) {
   .cartita {
     display: none;
   }
+
   .mapas {
     display: none;
   }
+
   .redes-header {
     display: none;
   }
+  .debajo-footer {
+    display: none;
+  }
+}
+.logo-debajo-footer {
+  visibility: hidden;
 }
 
-@media screen and (orientation: landscape){
-  
-}
+@media screen and (orientation: landscape) {}
