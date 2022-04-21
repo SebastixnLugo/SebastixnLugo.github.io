@@ -147,7 +147,7 @@ header {
 }
 
 .zoom:hover {
-  transform: scale(1.05);
+  transform: scale(1.2);
 }
 
 /*fin sección de imágenes*/
