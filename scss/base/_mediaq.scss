@@ -1,0 +1,50 @@
+/*Mediaq*/
+@media screen and (max-width: 360px) {
+    .cartita {
+        display: none;
+    }
+
+    .mapas {
+        display: none;
+    }
+
+    .redes-header {
+        display: none;
+    }
+
+    .img-superior {
+        width: max-content;
+    }
+
+    .debajo-footer {
+        display: none;
+    }
+
+    .logo-debajo-footer {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .cartita {
+        display: none;
+    }
+
+    .mapas {
+        display: none;
+    }
+
+    .redes-header {
+        display: none;
+    }
+
+    .debajo-footer {
+        display: none;
+    }
+}
+
+.logo-debajo-footer {
+    visibility: hidden;
+}
+
+@media screen and (orientation: landscape) {}

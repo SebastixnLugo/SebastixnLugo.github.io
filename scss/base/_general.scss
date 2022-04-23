@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,700&display=swap');
+
+/*AJUSTES GENERALES*/
+a:link {
+    color: #d2d5e1;
+  }
+a:visited {
+    color: #d2d5e1;
+  }
+a:active {
+    color: #d2d5e1;
+  }
+   
+a {
+    text-decoration: none;
+  }
+   
+ul {
+    list-style-type: none;
+  }
+
+.body-home {
+    background-color: #212042;
+    min-height: 100vh;
+  }
+
+$bg-color:#141e31;
+
+.main-index {
+  background: $bg-color;
+}
+  
+  
+  

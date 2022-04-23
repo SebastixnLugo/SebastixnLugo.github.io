@@ -1,3 +1,10 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,24 +12,7 @@
   -webkit-box-sizing: border-box;
 }
 
-/*Fuentes*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,700&display=swap');
-
-
-
-/*general*/
-
-.body-home {
-  background-color: #212042;
-  min-height: 100vh;
-  
-}
-
+/*AJUSTES GENERALES*/
 a:link {
   color: #d2d5e1;
 }
@@ -43,221 +33,20 @@ ul {
   list-style-type: none;
 }
 
-/*Fin general*/
-
-/* ---------------------------------------INDEX------------------------------------------------- */
-
-
-/*--------------------header----------------------*/
-
-header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  height: 50px;
-  background: linear-gradient(#141e30, #212042);
-  padding-left: 30px;
-  padding-right: 30px;
-
-}
-
-.logo-header {
-  height: 50px;
-}
-
-.sesion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.perfil {
-  height: 25px;
-}
-
-.carrito {
-  height: 25px;
-}
-
-
-
-
-
-/* barra de búsqueda */
-
-
-
-
-
-
-/*----------------------Menú -------------------------------*/
-
-.menu {
-  grid-area: menu;
-  font-family: 'Poppins', sans-serif;
+.body-home {
   background-color: #212042;
-  width: 100%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  min-height: 100vh;
 }
 
-.menu a {
-  color: #d2d5e1;
-  text-decoration: none;
-  font-size: 1em;
-  text-transform: uppercase;
-  font-weight: 600;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+.main-index {
+  background: #141e31;
 }
 
-.menu a:hover {
-  color: #ee2e24;
-}
-
-/* -------------Fin menú------------------------------ */
-
-
-.banner-index {
-  width: auto;
-}
-
-
-/*---------------sección de imágenes----------------*/
-.img-superior {
-  width: auto;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.img-inferior {
-  width: auto;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap-reverse;
-  padding-bottom: 50px;
-}
-
-.zoom {
-  transition: transform .3s;
-}
-
-.zoom:hover {
-  transform: scale(1.2);
-}
-
-/*fin sección de imágenes*/
-
-/* ----------Productos con animaciones----------------- */
-.productos-destacados {
-  background-color: #fff;
-  border-radius: 60px;
-}
-
-.h2-destacados {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: x-large;
-  color: #212042;
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.product1 {
-  width: auto;
-  color: #fff;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.img-product1 {
-  width: 40%;
-  float: left;
-}
-
-.aside-product1 {
-  padding-top: 3rem;
-}
-
-.product2 {
-  width: 100%;
-  color: #fff;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.img-product2 {
-  width: 35%;
-  float: right;
-  margin-right: 15px;
-}
-
-.aside-product2 {
-  padding-top: 3rem;
-}
-
-
-
-.product3 {
-  width: 100%;
-  color: #000;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.img-product3 {
-  width: 40%;
-  float: left;
-}
-
-.aside-product3 {
-  padding-top: 3rem;
-}
-
-.hr-product {
-  height: 5px;
-  background-color: #212042;
-}
-
-
-.h2-product {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #212042;
-  text-align: center;
-  font-size: x-large;
-  margin-right: 40px;
-  margin-left: 40px;
-  line-height: 60px;
-  margin-left: 40px;
-  line-height: 60px;
-}
-
-.p-product {
-  font-family: 'Poppins', sans-serif;
-  color: #212042;
-  font-size: large;
-  text-align: center;
-  line-height: 30px;
-  margin-right: 40px;
-  margin-left: 40px;
-}
-
+/*Botón sección de productos con animación - index*/
 .botón {
   text-decoration: none;
   padding: 3px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 25px;
   color: #fff;
@@ -274,7 +63,6 @@ header {
   text-decoration: none;
 }
 
-/* botón From uiverse.io */
 .fancy {
   background-color: transparent;
   border: 2px solid #212042;
@@ -358,6 +146,11 @@ header {
   background: #212042;
 }
 
+.fancy:hover {
+  color: white;
+  background: #212042;
+}
+
 .fancy:hover::before {
   width: 0.9375rem;
   background: #f44336;
@@ -379,149 +172,8 @@ header {
   width: 0;
 }
 
-
-
-/* ----------Fin de la sección productos con animaciones----------------- */
-
-
-
-/*--------------Footer------------------------*/
-
-.footer {
-  width: 100%;
-  background: linear-gradient(#141e30, #212042);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-radius: 40px;
-
-}
-
-.h2-footer {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #FFFFFF;
-  line-height: 30px;
-  display: flex;
-  justify-content: center;
-  font-size: x-large;
-}
-
-.ul-footer {
-  color: #FFFFFF;
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  list-style: none;
-  text-align: justify;
-  line-height: 20px;
-  font-weight: 500;
-}
-
-
-/* From uiverse.io by @gagan-gv */
-.cartita {
-  width: 190px;
-  height: 254px;
-  background: #f0f0f0;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.cartita:hover {
-  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
-  background-color: #212042;
-}
-
-.cartita>.blob {
-  height: 10px;
-  width: 75%;
-  border-radius: 0 0 30px 30px;
-  margin: 0 auto;
-  background-color: #212042;
-  visibility: visible;
-  transition: all 0.3s;
-}
-
-.cartita:hover>.blob {
-  height: 0;
-}
-
-.cartita>.img {
-  display: flex;
-  margin: 30px auto 10px auto;
-  width: 90px;
-  height: 90px;
-  background-image: url("https://www.greatplacetowork.com.ar/images/coderhouse_logo.png");
-  background-size: cover;
-  border-radius: 20px;
-  font-size: 11px;
-  justify-content: center;
-  align-items: center;
-}
-
-.cartita:hover>.img {
-  width: 100%;
-  height: 70%;
-  border-radius: 10px;
-  margin: 0 auto;
-  background-image: url("../img/IMG_20211111_000143059_HDR\ \(1\).jpg");
-  background-size: cover;
-}
-
-.cartita>h2 {
-  padding: 15px 10px;
-  font-size: 28px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.cartita>span {
-  font-size: 24px;
-}
-
-.cartita:hover>h2 {
-  opacity: 0;
-  position: absolute;
-}
-
-.cartita>p {
-  opacity: 0;
-  padding: 23px;
-  position: absolute;
-}
-
-.cartita>p>a {
-  padding-top: 3rem;
-  padding: 7px;
-}
-
-.cartita:hover>p {
-  opacity: 1;
-}
-
-/* .................................. */
-
-.centro-footer {
-  text-align: center;
-  line-height: 40px;
-}
-
-.p-centro {
-  color: #FFFFFF;
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  list-style: none;
-  text-align: center;
-  line-height: 30px;
-  font-weight: 600;
-}
-
-.logo-footer {
-  height: 50px;
-}
-
-/* REDES footer: https://codepen.io/miguelcast/pen/pwZMOJ */
-
+/*Redes con animaciones (https://codepen.io/miguelcast/pen/pwZMOJ) - header*/
+/*Redes con animaciones (https://codepen.io/miguelcast/pen/pwZMOJ) - footer*/
 .flex-center {
   display: -webkit-box;
   display: -webkit-flex;
@@ -536,391 +188,115 @@ header {
   -ms-flex-align: center;
   align-items: center;
 }
-
-.icon-3d {
+.flex-center .icon-3d {
   padding: 10px;
   -webkit-animation: icon3d 200ms 10;
   animation: icon3d 200ms 10;
   color: #fff;
 }
-
-.icon-3d:hover {
+.flex-center .icon-3d:hover {
   -webkit-animation: icon3d 200ms infinite;
   animation: icon3d 200ms infinite;
 }
-
 @keyframes icon3d {
   0% {
     text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
   }
-
   25% {
     text-shadow: -5px -6px #f44336, 5px 4px #2196f3;
   }
-
   50% {
     text-shadow: 5px -4px #f44336, -8px 4px #2196f3;
   }
-
   75% {
     text-shadow: -8px -4px #f44336, -5px -4px #2196f3;
   }
-
   100% {
     text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
   }
 }
 
-.p-footer {
-  width: 300px;
-  list-style: none;
-  line-height: 30px;
-}
-
-.maps {
-  border-radius: 20px;
-
-}
-
-.debajo-footer {
-  background: linear-gradient(#141e30, #000);
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  line-height: 19px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.p-debajo-footer {
-  font-size: smaller;
-  color: #fff;
-}
-
-.logo-debajo-footer {
-  width: 3%;
-}
-
-/*----------------------final footer---------------*/
-
-/* ----------------------------------------------------CARRITO---------------------------------------------------------- */
-
-.body-carrito {
-  background-color: #d2d5e1;
-}
-
-.menú-container-2 {
-  padding-top: 3rem;
-}
-
-.h2-carrito {
-  font-family: 'Oswald', sans-serif;
-  font-style: italic;
-  line-height: 3rem;
-}
-
-.carrito-carrusel-1 {
-  display: flex;
-  justify-content: center;
-  bottom: 42rem;
-}
-
-.h3-producto {
-  font-family: 'Poppins', sans-serif;
-}
-
-.hr-carrusel-1 {
-  height: 2px;
-  background-color: #000000;
-}
-
-.img-carrito-1 {
-  width: 70%;
-}
-
-.carrito-carrusel-2 {
-  display: flex;
-  justify-content: center;
-  bottom: 32rem;
-  left: 12rem;
-}
-
-.h3-producto {
-  font-family: 'Poppins', sans-serif;
-}
-
-.hr-carrusel-2 {
-  height: 2px;
-  background-color: #000000;
-}
-
-/* ----------------------------------------------------IYS-------------------------------------------------- */
-
-.iys-1 {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  bottom: 40rem;
-  left: 8rem;
-}
-
-.iys-2 {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  bottom: 37rem;
-  left: 8rem;
-}
-
-.iys-3 {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  bottom: 29rem;
-  left: 8rem;
-}
-
-.iys-4 {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  bottom: 21rem;
-  left: 8rem;
-}
-
-/* -----------------------------------------------Teclado y mouse------------------------------------------- */
-.main-tym {
-  background-color: #fff;
-}
-
-/*--------------------header----------------------*/
-
-.banner-productos {
-  background-color: linear-gradient(#141e30, #212042);
-}
-
-
-/* -----------------------------------------Soporte-------------------------------------------------------- */
-
-.ul-soporte {
-  font-family: 'Oswald', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  font-size: xx-large;
-  left: 10rem;
-  text-decoration: none;
-  list-style: none;
-  font-style: italic;
-  color: #FFFFFF;
-  background-color: #212042;
-  margin: 3rem 250px;
-  padding: 0.5rem;
-  bottom: 45rem;
-  line-height: 10rem;
-}
-
-/* --------------------------------------------FORMULARIOS--------------------------------------------- */
-
-/* Formulario utilizado desde: https://codepen.io/soufiane-khalfaoui-hassani/pen/LYpPWda */
-.html-formulario {
-  height: 100%;
-}
-
-.body-formulario {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  background: linear-gradient(#141e30, #212042);
-}
-
-.login-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  padding: 40px;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, .5);
-  box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+/*Cartita - footer*/
+.cartita {
+  width: 190px;
+  height: 254px;
+  background: #f0f0f0;
   border-radius: 10px;
-}
-
-.login-box h2 {
-  margin: 0 0 30px;
-  padding: 0;
-  color: #fff;
   text-align: center;
 }
 
-.login-box .user-box {
-  position: relative;
+.cartita:hover {
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
+  background-color: #212042;
 }
 
-.login-box .user-box input {
-  width: 100%;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #fff;
-  margin-bottom: 30px;
-  border: none;
-  border-bottom: 1px solid #fff;
-  outline: none;
-  background: transparent;
+.cartita > .blob {
+  height: 10px;
+  width: 75%;
+  border-radius: 0 0 30px 30px;
+  margin: 0 auto;
+  background-color: #212042;
+  visibility: visible;
+  transition: all 0.3s;
 }
 
-.login-box .user-box label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #fff;
-  pointer-events: none;
-  transition: .5s;
+.cartita:hover > .blob {
+  height: 0;
 }
 
-.login-box .user-box input:focus~label,
-.login-box .user-box input:valid~label {
-  top: -20px;
-  left: 0;
-  color: #ffffff;
-  font-size: 12px;
-}
-
-.login-box form a {
-  position: relative;
-  display: inline-block;
-  padding: 10px 20px;
-  color: #ffffff;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: .5s;
-  margin-top: 40px;
-  letter-spacing: 4px
-}
-
-.login-box a:hover {
-  background: #212042;
-  color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #212042,
-    0 0 25px #212042,
-    0 0 50px #212042,
-    0 0 100px #212042;
-}
-
-.login-box a span {
-  position: absolute;
-  display: block;
-}
-
-.login-box a span:nth-child(1) {
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #212042);
-  animation: btn-anim1 1s linear infinite;
-}
-
-@keyframes btn-anim1 {
-  0% {
-    left: -100%;
-  }
-
-  50%,
-  100% {
-    left: 100%;
-  }
-}
-
-.login-box a span:nth-child(2) {
-  top: -100%;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(180deg, transparent, #212042);
-  animation: btn-anim2 1s linear infinite;
-  animation-delay: .25s
-}
-
-@keyframes btn-anim2 {
-  0% {
-    top: -100%;
-  }
-
-  50%,
-  100% {
-    top: 100%;
-  }
-}
-
-.login-box a span:nth-child(3) {
-  bottom: 0;
-  right: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(270deg, transparent, #212042);
-  animation: btn-anim3 1s linear infinite;
-  animation-delay: .5s
-}
-
-@keyframes btn-anim3 {
-  0% {
-    right: -100%;
-  }
-
-  50%,
-  100% {
-    right: 100%;
-  }
-}
-
-.login-box a span:nth-child(4) {
-  bottom: -100%;
-  left: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(360deg, transparent, #212042);
-  animation: btn-anim4 1s linear infinite;
-  animation-delay: .75s
-}
-
-@keyframes btn-anim4 {
-  0% {
-    bottom: -100%;
-  }
-
-  50%,
-  100% {
-    bottom: 100%;
-  }
-}
-
-
-.html-exito {
-  height: 100%;
-  background: linear-gradient(#141e30, #212042);
-}
-
-.h1-exito {
-  font-family: 'Poppins', sans-serif;
-  font-style: italic;
-  font-size: large;
-  color: #FFFFFF;
+.cartita > .img {
   display: flex;
+  margin: 30px auto 10px auto;
+  width: 90px;
+  height: 90px;
+  background-image: url("https://www.greatplacetowork.com.ar/images/coderhouse_logo.png");
+  background-size: cover;
+  border-radius: 20px;
+  font-size: 11px;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 
+.cartita:hover > .img {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-image: url("../img/IMG_20211111_000143059_HDR (1).jpg");
+  background-size: cover;
+}
 
+.cartita > h2 {
+  padding: 15px 10px;
+  font-size: 28px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
+.cartita > span {
+  font-size: 24px;
+}
 
-/* --------------------------MEDIA---------------------------- */
+.cartita:hover > h2 {
+  opacity: 0;
+  position: absolute;
+}
 
+.cartita > p {
+  opacity: 0;
+  padding: 23px;
+  position: absolute;
+}
+
+.cartita > p > a {
+  padding-top: 3rem;
+  padding: 7px;
+}
+
+.cartita:hover > p {
+  opacity: 1;
+}
+
+/*Mediaq*/
 @media screen and (max-width: 360px) {
   .cartita {
     display: none;
@@ -937,14 +313,15 @@ header {
   .img-superior {
     width: max-content;
   }
+
   .debajo-footer {
     display: none;
   }
+
   .logo-debajo-footer {
     visibility: hidden;
   }
 }
-
 @media screen and (max-width: 820px) {
   .cartita {
     display: none;
@@ -957,6 +334,7 @@ header {
   .redes-header {
     display: none;
   }
+
   .debajo-footer {
     display: none;
   }
@@ -965,4 +343,462 @@ header {
   visibility: hidden;
 }
 
-@media screen and (orientation: landscape) {}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background: linear-gradient(#141e30, #212042);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo-header {
+  height: 50px;
+}
+
+.sesion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil {
+  height: 25px;
+}
+
+.carrito {
+  height: 25px;
+}
+
+.menu {
+  grid-area: menu;
+  font-family: "Poppins", sans-serif;
+  background-color: #212042;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  color: #d2d5e1;
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu a:hover {
+  color: #ee2e24;
+}
+
+/*Sección de imágenes editadas por mí - index*/
+.img-superior {
+  width: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-inferior {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  padding-bottom: 50px;
+}
+
+.zoom {
+  transition: transform 0.3s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+/*Sección de imágenes con animaciones - index*/
+.productos-destacados {
+  background-color: #fff;
+  border-radius: 60px;
+}
+.productos-destacados .h2-destacados {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: x-large;
+  color: #212042;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.productos-destacados .hr-product {
+  height: 5px;
+  background-color: #212042;
+}
+.productos-destacados .h2-product {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212042;
+  text-align: center;
+  font-size: x-large;
+  margin-right: 40px;
+  margin-left: 40px;
+  line-height: 60px;
+  margin-left: 40px;
+  line-height: 60px;
+}
+.productos-destacados .p-product {
+  font-family: "Poppins", sans-serif;
+  color: #212042;
+  font-size: large;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.product1 {
+  width: auto;
+  color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product1 .img-product1 {
+  width: 40%;
+  float: left;
+}
+.product1 .aside-product1 {
+  padding-top: 3rem;
+}
+
+.product2 {
+  width: 100%;
+  color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product2 .img-product2 {
+  width: 35%;
+  float: right;
+  margin-right: 15px;
+}
+.product2 .aside-product2 {
+  padding-top: 3rem;
+}
+
+.product3 {
+  width: 100%;
+  color: #000;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product3 .img-product3 {
+  width: 40%;
+  float: left;
+}
+.product3 .aside-product3 {
+  padding-top: 3rem;
+}
+
+.footer {
+  width: 100%;
+  background: linear-gradient(#141e30, #212042);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 30px 30px 0 0;
+}
+.footer .h2-footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #FFFFFF;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+.footer .ul-footer {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-align: justify;
+  line-height: 20px;
+  font-weight: 500;
+}
+.footer .p-footer {
+  width: 300px;
+  list-style: none;
+  line-height: 30px;
+}
+
+/*Centro footer*/
+.centro-footer {
+  text-align: center;
+  line-height: 40px;
+}
+.centro-footer .p-centro {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 600;
+}
+.centro-footer .logo-footer {
+  height: 50px;
+}
+
+/*Maps - footer*/
+.maps {
+  border-radius: 20px;
+}
+
+/*Debajo del footer*/
+.debajo-footer {
+  background: #141e31;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.debajo-footer .p-debajo-footer {
+  font-size: smaller;
+  color: #fff;
+}
+
+/*Formularios - https://codepen.io/soufiane-khalfaoui-hassani/pen/LYpPWda*/
+.html-formulario {
+  height: 100%;
+}
+.html-formulario .body-formulario {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(#141e30, #212042);
+}
+.html-formulario .login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.html-formulario .login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.html-formulario .login-box .user-box {
+  position: relative;
+}
+.html-formulario .login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.html-formulario .login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.html-formulario .login-box .user-box input:focus ~ label,
+.html-formulario .login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #ffffff;
+  font-size: 12px;
+}
+.html-formulario .login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+}
+.html-formulario .login-box a:hover {
+  background: #212042;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #212042, 0 0 25px #212042, 0 0 50px #212042, 0 0 100px #212042;
+}
+.html-formulario .login-box a span {
+  position: absolute;
+  display: block;
+}
+.html-formulario .login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #212042);
+  animation: btn-anim1 1s linear infinite;
+}
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+.html-formulario .login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #212042);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+.html-formulario .login-box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #212042);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%, 100% {
+    right: 100%;
+  }
+}
+.html-formulario .login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #212042);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%, 100% {
+    bottom: 100%;
+  }
+}
+
+/*HTML sección de éxtio al registrarte*/
+.html-exito {
+  height: 100%;
+  background: linear-gradient(#141e30, #212042);
+}
+.html-exito .h1-exito {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-size: large;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/*Soporte*/
+.ul-soporte {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: xx-large;
+  left: 10rem;
+  text-decoration: none;
+  list-style: none;
+  font-style: italic;
+  color: #FFFFFF;
+  background-color: #212042;
+  margin: 3rem 250px;
+  padding: 0.5rem;
+  bottom: 45rem;
+  line-height: 10rem;
+}
+
+.body-carrito {
+  background-color: #d2d5e1;
+}
+.body-carrito .menú-container-2 {
+  padding-top: 3rem;
+}
+.body-carrito .h2-carrito {
+  font-family: "Oswald", sans-serif;
+  font-style: italic;
+  line-height: 3rem;
+}
+.body-carrito .carrito-carrusel-1 {
+  display: flex;
+  justify-content: center;
+  bottom: 42rem;
+}
+.body-carrito .h3-producto {
+  font-family: "Poppins", sans-serif;
+}
+.body-carrito .hr-carrusel-1 {
+  height: 2px;
+  background-color: #000000;
+}
+.body-carrito .img-carrito-1 {
+  width: 70%;
+}
+.body-carrito .carrito-carrusel-2 {
+  display: flex;
+  justify-content: center;
+  bottom: 32rem;
+  left: 12rem;
+}
+.body-carrito .hr-carrusel-2 {
+  height: 2px;
+  background-color: #000000;
+}
+
+/*# sourceMappingURL=style.css.map */
