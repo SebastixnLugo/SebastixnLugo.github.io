@@ -2,14 +2,14 @@
 .cartita {
     width: 190px;
     height: 254px;
-    background: #f0f0f0;
+    background: #fff;
     border-radius: 10px;
     text-align: center;
     }
 
     .cartita:hover {
         box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
-        background-color: #212042;
+        background: $bg-color;
     }
 
     .cartita>.blob {
@@ -31,7 +31,7 @@
         margin: 30px auto 10px auto;
         width: 90px;
         height: 90px;
-        background-image: url("https://www.greatplacetowork.com.ar/images/coderhouse_logo.png");
+        background-image: url("https://cdn.discordapp.com/attachments/748659559530233911/968524161087578112/coder.png");
         background-size: cover;
         border-radius: 20px;
         font-size: 11px;

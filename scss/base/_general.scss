@@ -31,12 +31,30 @@ ul {
     list-style-type: none;
   }
 
+body {
+  background-color: #312C5C;
+}
+
 .body-home {
     background-color: #212042;
     min-height: 100vh;
+    .body-home::-webkit-scrollbar {
+      width: 7px;
+    }
+    .body-home::-webkit-scrollbar-thumb {
+      background: #212042;
+      border-radius: 5px;
+    }
   }
 
-$bg-color:#141e31;
+
+  /*------------------------------------------Mains------------------------------------------------*/
+  main {
+    background-color: #212042;
+  }
+
+/*Variable: colores*/
+$bg-color:#212042;
 
 .main-index {
   background: $bg-color;

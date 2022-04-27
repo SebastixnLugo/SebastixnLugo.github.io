@@ -3,10 +3,9 @@ header {
     display: flex;
     justify-content: space-between;
     height: 50px;
-    background: linear-gradient(#141e30, #212042);
+    background: #0E0C38;
     padding-left: 30px;
     padding-right: 30px;
-    }
 
     .logo-header {
         height: 50px;
@@ -25,19 +24,20 @@ header {
     .carrito {
         height: 25px;
     }
-
+}
 
 
 .menu {
     grid-area: menu;
     font-family: 'Poppins', sans-serif;
-    background-color: #212042;
+    background-color: #0E0C38;
     width: 100%;
     padding-top: 1rem;
     padding-bottom: 1rem;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    border-radius: 0 0 1rem 1rem;
 }
 
 .menu a {
