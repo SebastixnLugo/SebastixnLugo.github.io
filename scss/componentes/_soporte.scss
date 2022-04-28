@@ -26,10 +26,8 @@ $border-color: #dddddd;
 .accordion {
   max-width: 860px;
   margin: 20px;
-  display: flex;
+  @extend %flexbox;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .h2-sop {
@@ -41,7 +39,7 @@ $border-color: #dddddd;
   padding-top: 5rem;
 }
 
-// Core Style
+/*------------menú accordion de:https://codepen.io/EnesSefaK/pen/mEjPyG--------------*/
 .accordion {
   border: 1px solid #dddddd;
 

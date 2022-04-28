@@ -31,9 +31,7 @@ ul {
     list-style-type: none;
   }
 
-body {
-  background-color: #312C5C;
-}
+  /*------------------------------------------ BODY & MAINS------------------------------------------------*/
 
 .body-home {
     background-color: #212042;
@@ -47,18 +45,9 @@ body {
     }
   }
 
-
-  /*------------------------------------------Mains------------------------------------------------*/
-  main {
+.body-secciones {
     background-color: #212042;
   }
-
-/*Variable: colores*/
-$bg-color:#212042;
-
-.main-index {
-  background: $bg-color;
-}
 
 .h1-index {
   display: inline-block;

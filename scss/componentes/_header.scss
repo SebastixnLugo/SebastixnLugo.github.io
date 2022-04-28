@@ -12,9 +12,8 @@ header {
     }
 
     .sesion {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %flexbox;
+        gap: 0.5rem;
     }
 
     .perfil {
