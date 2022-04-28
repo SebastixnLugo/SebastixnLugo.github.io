@@ -59,6 +59,12 @@ main {
   background: #212042;
 }
 
+.h1-index {
+  display: inline-block;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
 /*Botón sección de productos con animación - index*/
 .botón {
   text-decoration: none;
@@ -436,6 +442,22 @@ main {
     transform: scale(2);
   }
 }
+/*Mixins*/
+/*extends para*/
+.html-exito .h1-exito {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-size: large;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.html-exito .h1-exito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   width: 100%;
   display: flex;
@@ -470,7 +492,6 @@ header .carrito {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  border-radius: 0 0 1rem 1rem;
 }
 
 .menu a {
@@ -956,18 +977,118 @@ header .carrito {
   height: 100%;
   background: linear-gradient(#141e30, #212042);
 }
-.html-exito .h1-exito {
-  font-family: "Poppins", sans-serif;
-  font-style: italic;
-  font-size: large;
-  color: #FFFFFF;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
 .body-soporte {
   background-color: #212042;
+}
+
+.main-sop {
+  background-color: #fff;
+}
+
+/*---------------------------------------------------*/
+.menu-sop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.accordion {
+  max-width: 860px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h2-sop {
+  color: #000;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 5px;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.accordion {
+  border: 1px solid #dddddd;
+}
+.accordion__header {
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+  font-size: 20px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  cursor: s-resize;
+  position: relative;
+  padding: 20px;
+  border-top: 1px solid #dddddd;
+}
+.accordion__header:after {
+  display: none;
+  content: "+";
+  transform-origin: center;
+  font-size: 1.2em;
+  color: #ed1c2e;
+  margin-right: 0;
+  margin-left: auto;
+  transition: transform 200ms ease-out;
+}
+.accordion__item {
+  position: relative;
+  overflow: hidden;
+}
+.accordion__item:hover .accordion__header {
+  color: #ed1c2e;
+}
+.accordion__item:first-child .accordion__header {
+  border-top: none;
+}
+.accordion__content {
+  padding: 0px 20px;
+  height: 0px;
+  background-color: #fff;
+  color: #333;
+  overflow: hidden;
+  transition: padding 200ms ease-in-out;
+}
+.accordion input[type=radio],
+.accordion input[type=checkbox] {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 15px;
+  height: 15px;
+  border: 0px;
+  z-index: 999;
+}
+.accordion input[type=radio][hidden=hidden],
+.accordion input[type=checkbox][hidden=hidden] {
+  top: -100%;
+}
+.accordion input[type=radio][hidden=hidden] + .accordion__header:after,
+.accordion input[type=checkbox][hidden=hidden] + .accordion__header:after {
+  display: block;
+}
+.accordion input[type=radio]:focus,
+.accordion input[type=checkbox]:focus {
+  outline: none;
+}
+.accordion input[type=radio]:checked ~ .accordion__content,
+.accordion input[type=checkbox]:checked ~ .accordion__content {
+  padding: 0px 20px 20px 20px;
+  height: auto;
+}
+.accordion input[type=radio]:checked + .accordion__header,
+.accordion input[type=checkbox]:checked + .accordion__header {
+  color: #ed1c2e;
+}
+.accordion input[type=radio]:checked + .accordion__header:after,
+.accordion input[type=checkbox]:checked + .accordion__header:after {
+  transform: rotate(-45deg);
 }
 
 .body-carrito {

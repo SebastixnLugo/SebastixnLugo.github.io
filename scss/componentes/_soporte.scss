@@ -1,3 +1,138 @@
 .body-soporte {
     background-color: #212042;
   }
+  .main-sop {
+    background-color: #fff;
+  }
+
+/*---------------------------------------------------*/
+
+$primary-color: #ed1c2e;
+$header-bg: #fff;
+$header-color: #333;
+$header-padding: 20px;
+$radio-size: 15px;
+$content-bg: #fff;
+$content-color: #333;
+$collapse-icon-size: 1.2em;
+$collapse-icon-color: $primary-color;
+$border-color: #dddddd;
+
+.menu-sop {
+  @include flexbox(flex, center, center);
+  padding-bottom: 5rem;
+}
+
+.accordion {
+  max-width: 860px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h2-sop {
+  color: #000;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 5px;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+// Core Style
+.accordion {
+  border: 1px solid #dddddd;
+
+  &__header {
+    width: 100%;
+    background-color: $header-bg;
+    color: $header-color;
+    font-size: 20px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    cursor: s-resize;
+    position: relative;
+    padding: $header-padding;
+    border-top: 1px solid $border-color;
+
+    &:after {
+      display: none;
+      content: "+";
+      transform-origin: center;
+      font-size: $collapse-icon-size;
+      color: $collapse-icon-color;
+      margin-right: 0;
+      margin-left: auto;
+      transition: transform 200ms ease-out;
+    }
+  }
+
+  &__item {
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+      .accordion__header {
+        color: $primary-color;
+      }
+    }
+
+    &:first-child {
+      .accordion__header {
+        border-top: none;
+      }
+    }
+  }
+
+  &__content {
+    padding: 0px 20px;
+    height: 0px;
+    background-color: $content-bg;
+    color: $content-color;
+    overflow: hidden;
+    transition: padding 200ms ease-in-out;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    position: absolute;
+    top: $radio-size;
+    right: $radio-size;
+    width: $radio-size;
+    height: $radio-size;
+    border: 0px;
+    z-index: 999;
+
+    &[hidden="hidden"] {
+      top: -100%;
+
+      + .accordion__header {
+        &:after {
+          display: block;
+        }
+      }
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:checked {
+      ~ .accordion__content {
+        padding: 0px 20px 20px 20px;
+        height: auto;
+      }
+
+      + .accordion__header {
+        color: $primary-color;
+
+        &:after {
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+}

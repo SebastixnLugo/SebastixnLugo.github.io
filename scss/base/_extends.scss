@@ -1,0 +1,14 @@
+/*extends para*/
+%mensaje {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: large;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+%flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
