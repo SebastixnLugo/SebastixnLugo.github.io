@@ -443,7 +443,7 @@ ul {
   text-align: center;
 }
 
-.h3-carrito, .trabajando, .h2-carrito, .accordion, .html-exito .h1-exito, header .sesion {
+.h3-carrito, .trabajando, .h2-carrito, .accordion, .html-exito .h1-exito, .html-formulario .login, header .sesion {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -813,22 +813,20 @@ header .carrito {
 }
 
 /*Formularios - https://codepen.io/soufiane-khalfaoui-hassani/pen/LYpPWda*/
-.html-formulario {
-  height: 100%;
-}
 .html-formulario .body-formulario {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   background: linear-gradient(#141e30, #212042);
 }
+.html-formulario .login {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
 .html-formulario .login-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position: relative;
   width: 400px;
   padding: 40px;
-  transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
