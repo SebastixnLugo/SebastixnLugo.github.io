@@ -23,6 +23,21 @@
     .logo-debajo-footer {
         visibility: hidden;
     }
+    .sesion {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mobile {
+        display: block;
+    }
+   .menu {
+        display: none;
+    }
+    .sesion {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 820px) {
@@ -41,10 +56,9 @@
     .debajo-footer {
         display: none;
     }
-}
-
-.logo-debajo-footer {
-    visibility: hidden;
+    .sesion {
+        display: none;
+    }
 }
 
 @media screen and (orientation: landscape) {}
