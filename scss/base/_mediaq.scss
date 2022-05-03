@@ -7,13 +7,8 @@
     .mapas {
         display: none;
     }
-
     .redes-header {
         display: none;
-    }
-
-    .img-superior {
-        width: max-content;
     }
 
     .debajo-footer {
@@ -23,19 +18,25 @@
     .logo-debajo-footer {
         visibility: hidden;
     }
-    .sesion {
+
+    .r-header .sesion {
+        display: none;
+    }
+
+   .section-menu {
         display: none;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 740px) {
     .mobile {
         display: block;
     }
-   .menu {
+    .r-header .sesion {
         display: none;
     }
-    .sesion {
+    
+   .section-menu {
         display: none;
     }
 }
