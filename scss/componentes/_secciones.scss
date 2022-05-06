@@ -8,6 +8,12 @@
     padding-bottom: 4rem;
 }
 
+.img-index {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .zoom {
     transition: transform .3s;
 }
