@@ -10,6 +10,7 @@
         content="Somos Trust, una empresa internacional de hardware con 4 empresas empecializadas en productos gaming: Trust, Trust Gaming, Trust Mobile y Trust Smart Home.">
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
+
     <!-- Meta kw -->
     <meta name="keywords"
         content="trust, gaming, gamer, teclados, mouse, auriculares, videojuegos, stream, altavoces, pc, fortnite, lol">
@@ -35,8 +36,8 @@
 
 <body class="body-home">
 
-    <!-----------------------------HEADER----------------------------->
-    <header>
+    <!-----------------------------HEADER DESKTOP----------------------------->
+    <header class="header-media">
         <section>
             <div>
                 <a href="index.html"> <img class="logo-header" src="img/logo_trust_corporate_rgb_rev.png"
@@ -69,46 +70,40 @@
                         alt="carro de compras"></a>
             </div>
         </section>
+
     </header>
 
-    <!----------------------------- MENÚ MOBILE ----------------------------->
-    <!--  
-    <section class="device">
-        <div class="mobile">
-            <button id="burger" class="open-main-nav">
-                <span class="burger"></span>
-                <span class="burger-text">Menu</span>
-            </button>
-            <nav class="main-nav" id="main-nav">
-                <ul>
-                    <li>
-                        <a href="#">Teclados y Mouse</a>
-                    </li>
-                    <li>
-                        <a href="#">Imagen y Sonido</a>
-                    </li>
-                    <li>
-                        <a href="#">Accesorios</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#">Muebles</a>
-                    </li>
-                    <li>
-                        <a href="#">Soporte</a>
-                    </li>
-                    <li>
-                        <a href="#">Tu perfil</a>
-                    </li>
-                    <li>
-                        <a href="#">Carrito</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </section> -->
+
+            <!----------------------------- HEADER MOBILE ----------------------------->
+            <section class="header-mobile">
+                <!-----------------------------MENU MOBILE----------------------------->
+                <nav class="menu-mobile">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="bar-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <ul class="menu-navegador">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#serviciosmuestra">Servicios</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="#dondeestamos123">Ubicacion</a></li>
+                        <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                        <li><a href="formularios.html">Contacto</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <a href="index.html"> <img src="img/logo_trust_corporate_rgb_rev.png"
+                            alt="trust icon"></a>
+                </div>
+                <div class="search-box">
+                    <button class="btn-search"><i class="fas fa-search"></i></button>
+                    <input type="text" class="input-search" placeholder="¿Qué buscas?">
+                </div>
+    
+            </section>
+
+
+
 
 
 
@@ -192,7 +187,7 @@
         <!-----------------------------SECCIÓN SUPERIOR----------------------------->
 
         <hr class="hr-product-pd">
-        <section class="d-flex justify-content-center flex-wrap gap-5 pt-5">
+        <section class="productos-1 d-flex justify-content-center flex-wrap gap-5 pt-5" id="id-sec-superior">
             <div class="zoom">
                 <a href="tecladoymouse.html#teclados"><img src="img/teclados.jpeg" class="img-fluid #teclados"
                         alt="teclado-trust"></a>
@@ -206,27 +201,25 @@
         </section>
 
         <!-----------------------------SECCIÓN INFERIOR------------------------------>
-        <section class="d-flex justify-content-center flex-wrap gap-5 pt-5 pb-5">
-                <div class="zoom">
-                    <a href="muebles.html#sillas"> <img src="img/sillas.jpeg" class="img-fluid"
-                            alt="silla-gamer-trust"></a>
-                </div>
-                <div class="zoom">
-                    <a href="iys.html#webcam"> <img src="img/webcam.jpeg" class="img-fluid" alt="webcam-trust"></a>
-                </div>
-                <div class="zoom">
-                    <a href="iys.html#altavoces"> <img src="img/altavoces.jpeg" class="img-fluid"
-                            alt="altavoces-trust"></a>
-                </div>
+        <section class="productos-2 d-flex justify-content-center flex-wrap gap-5 pt-5 pb-5">
+            <div class="zoom">
+                <a href="muebles.html#sillas"> <img src="img/sillas.jpeg" class="img-fluid" alt="silla-gamer-trust"></a>
+            </div>
+            <div class="zoom">
+                <a href="iys.html#webcam"> <img src="img/webcam.jpeg" class="img-fluid" alt="webcam-trust"></a>
+            </div>
+            <div class="zoom">
+                <a href="iys.html#altavoces"> <img src="img/altavoces.jpeg" class="img-fluid" alt="altavoces-trust"></a>
+            </div>
         </section>
 
 
-
+        <!----------------------------- IMG CON ANIMACIONES/DESKTOP Y TABLET ----------------------------->
         <section class="productos-destacados m-3">
             <div class="h2-destacados">
                 <h2>Productos destacados</h2>
             </div>
-            <!----------------------------- IMG CON ANIMACIONES ----------------------------->
+
             <div class="product1">
                 <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <img class="img-product1" src="img/teclado-asta.png" alt="TECLADO MECÁNICO GXT 865 ASTA">
@@ -239,12 +232,14 @@
                         <p class="p-product">Se acabó perder partidas por culpa de un mal tiro. Ahora podrás
                             trabajar
                             incansablemente para subir en la clasificación sin perder exactitud.</p>
-                        <a class="fancy" href="tecladoymouse.html#teclados">
-                            <span class="top-key"></span>
-                            <span class="text">Más información</span>
-                            <span class="bottom-key-1"></span>
-                            <span class="bottom-key-2"></span>
-                        </a>
+                        <div class="d-flex justify-content-center align-items-center pt-3">
+                            <a class="fancy" href="tecladoymouse.html#teclados">
+                                <span class="top-key"></span>
+                                <span class="text">Más información</span>
+                                <span class="bottom-key-1"></span>
+                                <span class="bottom-key-2"></span>
+                            </a>
+                        </div>
                     </aside>
                 </div>
             </div>
@@ -270,12 +265,14 @@
                             gaming GXT
                             970
                             Morfix de Trust se adapta a tus preferencias de gaming únicas.</p>
-                        <a class="fancy" href="tecladoymouse.html#mouses">
-                            <span class="top-key"></span>
-                            <span class="text">Más información</span>
-                            <span class="bottom-key-1"></span>
-                            <span class="bottom-key-2"></span>
-                        </a>
+                        <div class="d-flex justify-content-center align-items-center pt-3">
+                            <a class="fancy" href="tecladoymouse.html#mouse">
+                                <span class="top-key"></span>
+                                <span class="text">Más información</span>
+                                <span class="bottom-key-1"></span>
+                                <span class="bottom-key-2"></span>
+                            </a>
+                        </div>
                     </aside>
                 </div>
             </div>
@@ -298,15 +295,104 @@
                             tanto de todo lo que ocurre a tu alrededor: oirás todos los movimientos del enemigo
                             y podrás
                             reaccionar rápidamente.</p>
-                        <a class="fancy" href="iys.html#auriculares">
+                        <div class="d-flex justify-content-center align-items-center pt-3">
+                            <a class="fancy" href="iys.html#auricular">
+                                <span class="top-key"></span>
+                                <span class="text">Más información</span>
+                                <span class="bottom-key-1"></span>
+                                <span class="bottom-key-2"></span>
+                            </a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+
+        <!-----------------------------IMG CON ANIMACIONES / MOBILE----------------------------->
+
+        <section class="product-mobile">
+            <div class="d-flex justify-content-center align-items-center">
+                <h2 class="pt-4 pb-4">Productos destacados</h2>
+            </div>
+            <div>
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <img class="img-product-mobile" src="img/teclado-asta.png" alt="TECLADO MECÁNICO GXT 865 ASTA">
+                    <h2 class="h2-mobile">TECLADO MECÁNICO GXT 865 ASTA</h2>
+                    <p class="p-mobile">La tecnología N-key Rollover contra el efecto fantasma te ofrece la
+                        precisión
+                        de un
+                        verdadero atleta del gaming. </p>
+                    <p class="p-mobile">Se acabó perder partidas por culpa de un mal tiro. Ahora podrás
+                        trabajar
+                        incansablemente para subir en la clasificación sin perder exactitud.</p>
+                    <div class="d-flex justify-content-center align-items-center pt-3 pb-3">
+                        <a class="fancy" href="tecladoymouse.html#teclados">
                             <span class="top-key"></span>
                             <span class="text">Más información</span>
                             <span class="bottom-key-1"></span>
                             <span class="bottom-key-2"></span>
                         </a>
-                    </aside>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="hr-mobile">
+            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img class="img-product-mobile" src="img/mouse-product2.png" alt="MOUSE GXT 970 MORFIX">
+                <h2 class="h2-mobile"> MOUSE GXT 970 MORFIX</h2>
+                <p class="p-mobile">Un ratón para gaming produce un gran impacto con incluso el menor
+                    movimiento,
+                    por
+                    lo que es recomendable que sea muy preciso </p>
+                <p class="p-mobile">Se acabó perder partidas por culpa de un mal tiro. Imagina un ratón
+                    tan
+                    milimétrico
+                    que esté totalmente adaptado a tu estilo de gaming y haga exactamente lo que
+                    quieres. Un
+                    ratón
+                    personalizable hace que ese sueño sea una realidad; el ratón personalizable para
+                    gaming GXT
+                    970
+                    Morfix de Trust se adapta a tus preferencias de gaming únicas.</p>
+                <div class="d-flex justify-content-center align-items-center pt-3 pb-3">
+                    <a class="fancy" href="tecladoymouse.html#mouse-970">
+                        <span class="top-key"></span>
+                        <span class="text">Más información</span>
+                        <span class="bottom-key-1"></span>
+                        <span class="bottom-key-2"></span>
+                    </a>
                 </div>
             </div>
+
+            <hr class="hr-mobile">
+            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img class="img-product-mobile" src="img/auricular.png" alt="AURICULAR GXT 450 BLIZZ">
+                <h2 class="h2-mobile">AURICULAR GXT 450 BLIZZ</h2>
+                <p class="p-mobile">Los auriculares para gaming GXT 450 Blizz Surround Sound ofrecen
+                    sonidos de
+                    gaming
+                    en alta fidelidad y unos potentes graves.</p>
+                <p class="p-mobile">Con el sonido surround 7.1 virtual y las unidades de altavoz de 40
+                    mm,
+                    estarás
+                    al
+                    tanto de todo lo que ocurre a tu alrededor: oirás todos los movimientos del enemigo
+                    y podrás
+                    reaccionar rápidamente.</p>
+                <div class="d-flex justify-content-center align-items-center pt-3 pb-5">
+                    <a class="fancy" href="iys.html#auricular">
+                        <span class="top-key"></span>
+                        <span class="text">Más información</span>
+                        <span class="bottom-key-1"></span>
+                        <span class="bottom-key-2"></span>
+                    </a>
+                </div>
+            </div>
+
+
+
         </section>
 
     </main>
@@ -382,6 +468,8 @@
 
     <!-- icons -->
     <script src="https://kit.fontawesome.com/f5a964c1bc.js" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script href="main.js"></script>
 
 
 
