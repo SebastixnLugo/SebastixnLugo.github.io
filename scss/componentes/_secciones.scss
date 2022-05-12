@@ -3,6 +3,7 @@
     padding-top: 4rem;
     margin-left: 2rem;
     margin-right: 2rem;
+    overflow: hidden;
 }
 
 .productos-2 {
@@ -29,6 +30,7 @@
 .img-banner {
     max-height: 400px;
 }
+
 /*Sección de imágenes con animaciones - index*/
 
 .productos-destacados {
@@ -278,7 +280,7 @@
     margin-left: 2rem;
     margin-right: 2rem;
     padding: 1rem;
- 
+
 }
 
 .p-mobile {
@@ -292,5 +294,5 @@
     height: 7px;
     background-color: #212042;
     width: 50%;
-    
+
 }

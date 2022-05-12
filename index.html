@@ -74,37 +74,16 @@
     </header>
 
 
-            <!----------------------------- HEADER MOBILE ----------------------------->
-            <section class="header-mobile">
-                <!-----------------------------MENU MOBILE----------------------------->
-                <nav class="menu-mobile">
-                    <input type="checkbox" id="check">
-                    <label for="check" class="bar-btn">
-                        <i class="fa-solid fa-bars"></i>
-                    </label>
-                    <ul class="menu-navegador">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#serviciosmuestra">Servicios</a></li>
-                        <li><a href="galeria.html">Galeria</a></li>
-                        <li><a href="#dondeestamos123">Ubicacion</a></li>
-                        <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
-                        <li><a href="formularios.html">Contacto</a></li>
-                    </ul>
-                </nav>
-                <div class="logo-mobile">
-                    <a href="index.html"> <img src="img/logo_trust_corporate_rgb_rev.png"
-                            alt="trust icon"></a>
-                </div>
-                <div class="search-box">
-                    <button class="btn-search"><i class="fas fa-search"></i></button>
-                    <input type="text" class="input-search" placeholder="¿Qué buscas?">
-                </div>
-    
-            </section>
-
-
-
-
+    <!----------------------------- HEADER MOBILE ----------------------------->
+    <section class="header-mobile">
+        <div class="logo-mobile">
+            <a href="index.html"> <img src="img/logo_trust_corporate_rgb_rev.png" alt="trust icon"></a>
+        </div>
+        <div class="search-box">
+            <button class="btn-search"><i class="fas fa-search"></i></button>
+            <input type="text" class="input-search" placeholder="¿Qué buscas?">
+        </div>
+    </section>
 
 
     <!----------------------------- MENÚ ----------------------------->
@@ -129,6 +108,8 @@
     </section>
 
     <main class="main-index">
+
+
         <!----------------------------- CARRUSEL ----------------------------->
         <section class="container p-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -183,10 +164,41 @@
         </section>
 
 
+        <!-----------------------------MENU CIRCULAR | MOBILE----------------------------->
+
+        <nav class="menu-mobile">
+            <input checked="checked" class="menu-toggler" type="checkbox">
+            <label for="menu-toggler"></label>
+            <ul>
+                <li class="menu-item">
+                    <a href="tecladoymouse.html#mouse"><i class="fas fa-solid fa-computer-mouse"></i></a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="muebles.html"><i class="fa-solid fa-seat-airline"></i></a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="accesorios.html"><i class="fa-brands fa-usb"></i></a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="iys.html"><i class="fa-solid fa-headset"></i></a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="soporte.html"><i class="fa-solid fa-circle-info"></i></a>
+                </li>
+            </ul>
+        </nav>
         <!----------------------------- SECCIÓN DE IMÁGENES PROPIAS----------------------------->
         <!-----------------------------SECCIÓN SUPERIOR----------------------------->
 
-        <hr class="hr-product-pd">
+
         <section class="productos-1 d-flex justify-content-center flex-wrap gap-5 pt-5" id="id-sec-superior">
             <div class="zoom">
                 <a href="tecladoymouse.html#teclados"><img src="img/teclados.jpeg" class="img-fluid #teclados"
@@ -212,6 +224,7 @@
                 <a href="iys.html#altavoces"> <img src="img/altavoces.jpeg" class="img-fluid" alt="altavoces-trust"></a>
             </div>
         </section>
+
 
 
         <!----------------------------- IMG CON ANIMACIONES/DESKTOP Y TABLET ----------------------------->
@@ -309,6 +322,7 @@
         </section>
 
 
+
         <!-----------------------------IMG CON ANIMACIONES / MOBILE----------------------------->
 
         <section class="product-mobile">
@@ -391,9 +405,8 @@
                 </div>
             </div>
 
-
-
         </section>
+
 
     </main>
 
