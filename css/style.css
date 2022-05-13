@@ -540,7 +540,6 @@ header .carrito {
   letter-spacing: 2px;
   outline: none;
   border-radius: 25px;
-  transition: all 0.5s ease-in-out;
   padding-right: 40px;
   background-color: #0E0C38;
 }
@@ -1498,7 +1497,7 @@ textarea {
   height: inherit;
   line-height: 80px;
   color: #ee2e24;
-  background: rgba(230, 230, 250, 0.7);
+  background: #fff;
   border-radius: 50%;
   text-align: center;
   text-decoration: none;
