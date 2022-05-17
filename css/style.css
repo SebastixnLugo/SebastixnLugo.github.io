@@ -35,16 +35,22 @@ ul {
 }
 
 /*------------------------------------------ BODY & MAINS------------------------------------------------*/
+body::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #212042;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ed1c2e;
+  border-radius: 50px;
+}
+
 .body-home {
   background-color: #212042;
-  min-height: 100vh;
-}
-.body-home .body-home::-webkit-scrollbar {
-  width: 7px;
-}
-.body-home .body-home::-webkit-scrollbar-thumb {
-  background: #212042;
-  border-radius: 5px;
 }
 
 .body-secciones {
