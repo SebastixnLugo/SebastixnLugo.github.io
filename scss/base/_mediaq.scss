@@ -62,9 +62,16 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        gap: 0.5rem;
 
         img {
             width: 45%;
+        }
+
+        .perfil-mobile {
+            width: 35px;
+            gap: 1rem;
+            border-radius: 5px 5px 5px 5px;
         }
     }
 
@@ -76,6 +83,8 @@
         position: sticky;
         overflow: visible;
     }
+
+    
 
    
 

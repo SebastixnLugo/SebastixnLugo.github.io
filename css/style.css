@@ -36,7 +36,7 @@ ul {
 
 /*------------------------------------------ BODY & MAINS------------------------------------------------*/
 body::-webkit-scrollbar {
-  width: 12px;
+  width: 6px;
   border-radius: 50px;
 }
 
@@ -378,9 +378,15 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 0.5rem;
   }
   .header-mobile img {
     width: 45%;
+  }
+  .header-mobile .perfil-mobile {
+    width: 35px;
+    gap: 1rem;
+    border-radius: 5px 5px 5px 5px;
   }
 
   .header-media {
@@ -546,6 +552,7 @@ header .carrito {
   letter-spacing: 2px;
   outline: none;
   border-radius: 25px;
+  transition: all 0.5s ease-in-out;
   padding-right: 40px;
   background-color: #0E0C38;
 }
