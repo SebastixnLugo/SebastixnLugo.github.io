@@ -538,6 +538,22 @@ header .carrito {
   height: 25px;
 }
 
+.a-idioma {
+  text-decoration: none;
+}
+
+.span-idioma {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.span-idioma-seleccionado {
+  color: #ee2e24;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
 /* BARRA DE BÚSQUEDA: https://codepen.io/ahmadbassamemran/pen/rNjMXqg */
 .search-box {
   position: relative;
