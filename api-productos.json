@@ -1,0 +1,70 @@
+[{
+    "precio": 5.000,
+    "id": 1,
+    "title": "GXT 834 Callaz TKL",
+    "thumbnailUrl": "https://d7qztf2ityad6.cloudfront.net/24404/24404_pictures_product_visual_1.png?f=RB400,400"
+},
+{
+    "precio": 4.500,
+    "id": 2,
+    "title": "GXT 856 Torac",
+    "thumbnailUrl": "https://d7qztf2ityad6.cloudfront.net/23577/23577_pictures_product_visual_1.png?f=RB400,400"
+},
+{
+    "precio": 6.500,
+    "id": 3,
+    "title": "GXT 860 Thura",
+    "thumbnailUrl": "https://d7qztf2ityad6.cloudfront.net/21839/21839_pictures_product_visual_1.png?f=RB400,400"
+},
+{
+    "precio": 3.000,
+    "id": 4,
+    "title": "GXT 960 Graphin",
+    "thumbnailUrl": "https://d7qztf2ityad6.cloudfront.net/23758/23758_pictures_product_visual_1.png?f=RB400,400"
+},
+{
+    "precio": 3.500,
+    "id": 5,
+    "title": "GXT 980 Wireless",
+    "thumbnailUrl": "https://d7qztf2ityad6.cloudfront.net/24480/24480_pictures_product_visual_1.png?f=RB400,400"
+},
+{
+    "precio": 4.500,
+    "id": 6,
+    "title": "GXT 970 Morfix",
+    "thumbnailUrl": "https://d7qztf2ityad6.cloudfront.net/23764/23764_pictures_product_visual_1.png?f=RB400,400"
+},
+{
+    "precio": 2.000,
+    "id": 7,
+    "title": "Verto Ergonomic",
+    "thumbnailUrl": "https://d7qztf2ityad6.cloudfront.net/22879/22879_pictures_product_visual_1.png?f=RB400,400"
+},
+{
+    "precio": 1.500,
+    "id": 8,
+    "title": "Puck Rechargeable",
+    "thumbnailUrl": "https://d7qztf2ityad6.cloudfront.net/24059/24059_pictures_product_visual_1.png?f=RB400,400"
+}, {
+    "precio": 900,
+    "id": 9,
+    "title": "Yvi Dual-Mode",
+    "thumbnailUrl": "https://d7qztf2ityad6.cloudfront.net/24208/24208_pictures_product_visual_1.png?f=RB400,400"
+},{
+    "precio": 1.000,
+    "id": 10,
+    "title": "GXT 765 Glide RGB",
+    "thumbnailUrl": "https://d7qztf2ityad6.cloudfront.net/23646/23646_pictures_product_visual_1.png?f=RB400,400"
+},
+{
+    "precio": 1.500,
+    "id": 11,
+    "title": "GXT 764 Glide RGB",
+    "thumbnailUrl": "https://d7qztf2ityad6.cloudfront.net/23395/23395_pictures_product_top_1.png?f=RB400,400"
+}, {
+    "precio": 900,
+    "id": 12,
+    "title": "Yvi Dual-Mode",
+    "thumbnailUrl": "https://d7qztf2ityad6.cloudfront.net/21568/21568_pictures_product_visual_1.png?f=RB400,400"
+}
+]

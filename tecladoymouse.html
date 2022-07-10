@@ -14,6 +14,8 @@
   <meta name="keywords"
     content="trust, gaming, gamer, teclados, mouse, auriculares, videojuegos, stream, altavoces, pc, fortnite, lol">
   <title>Trust. | Teclados y Mouse: lo mejor del gaming en un solo lugar</title>
+  <!-- JS -->
+  <script src="js/app.js"></script>
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -60,9 +62,11 @@
             src="https://cdn.discordapp.com/attachments/748659559530233911/951181448793182278/ipwntxwtxiqumgfbtmq2.png"
             alt="foto de perfil">
         </a>
+
         <a href="carrito.html">
           <img class="carrito" src="img/carrito-de-compras-shopping-shopping-cart-transparent-png-467816.png"
             alt="carro de compras"></a>
+
       </div>
     </section>
   </header>
@@ -113,11 +117,13 @@
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -159,178 +165,203 @@
 
 
       <!----------------------------- E-COMMERCE PRODUCTOS ----------------------------->
+      <section id="templateCard">
+        <!----------------------------- TECLADOS------------------------------ -->
+        <h2 class="h2-productos-venta">Teclados Gamer</h2>
+        <section id="teclados" class="section-productos-venta">
+          <div class="container productos">
+            <div class="row justify-content-center gap-5">
 
-      <!----------------------------- TECLADOS------------------------------ -->
-      <h2 class="h2-productos-venta">Teclados Gamer</h2>
-      <section id="teclados" class="section-productos-venta">
-        <div class="container productos">
-          <div class="row justify-content-center gap-5">
-            <div class="carta-producto col-em">
-              <div class="imgBox">
-                <img src="https://d7qztf2ityad6.cloudfront.net/24404/24404_pictures_product_visual_1.png?f=RB400,400"
-                  alt="GXT 834 Callaz TKL" class="img-productos-venta">
+              <div class="carta-producto col-em">
+                <div class="imgBox">
+                  <img src="https://d7qztf2ityad6.cloudfront.net/24404/24404_pictures_product_visual_1.png?f=RB400,400"
+                    alt="GXT 834 Callaz TKL" class="img-productos-venta">
+                </div>
+                <div class="contentBox">
+                  <h3>GXT 834 Callaz TKL</h3>
+                  <h2 class="price">$<small>5.000</small></h2>
+                  <a href="#" data-id="1" class="buy">Comprar</a>
+                </div>
               </div>
-              <div class="contentBox">
-                <h3>GXT 834 Callaz TKL</h3>
-                <h2 class="price">$<small>5.000</small></h2>
-                <a href="carrito.html" class="buy">Comprar</a>
-              </div>
-            </div>
-
-            <div class="carta-producto col-sm">
-              <div class="imgBox">
-                <img src="https://d7qztf2ityad6.cloudfront.net/23577/23577_pictures_product_visual_1.png?f=RB400,400"
-                  alt="GXT 856 Torac" class="img-productos-venta">
-              </div>
-              <div class="contentBox">
-                <h3>GXT 856 Torac</h3>
-                <h2 class="price">$<small>4.500</small></h2>
-                <a href="carrito.html" class="buy">Comprar</a>
-              </div>
-            </div>
-
-            <div class="carta-producto col-sm">
-              <div class="imgBox">
-                <img src="https://d7qztf2ityad6.cloudfront.net/21839/21839_pictures_product_visual_1.png?f=RB400,400"
-                  alt="GXT 860 Thura" class="img-productos-venta">
-              </div>
-              <div class="contentBox">
-                <h3>GXT 860 Thura</h3>
-                <h2 class="price">$<small>6.500</small></h2>
-                <a href="carrito.html" class="buy">Comprar</a>
-              </div>
-            </div>
-      </section>
 
 
-      <!----------------------------- MOUSE ----------------------------->
-      <hr class="hr-product-pd">
-      <h2 class="h2-productos-venta">Mouse Gamer</h2>
-      <section id="mouse" class="section-productos-venta">
-        <div class="container productos">
-          <div class="row justify-content-center gap-5">
-            <div class="carta-producto  col-em">
-              <div class="imgBox">
-                <img src="https://d7qztf2ityad6.cloudfront.net/23758/23758_pictures_product_visual_1.png?f=RB400,400"
-                  alt="GXT 960 Graphin" class="img-productos-venta">
-              </div>
-              <div class="contentBox">
-                <h3>GXT 960 Graphin</h3>
-                <h2 class="price">$<small>3.000</small></h2>
-                <a href="carrito.html" class="buy">Comprar</a>
-              </div>
-            </div>
 
-            <div class="carta-producto col-sm">
-              <div class="imgBox">
-                <img src="https://d7qztf2ityad6.cloudfront.net/24480/24480_pictures_product_visual_1.png?f=RB400,400"
-                  alt="GXT 980 Wireless" class="img-productos-venta">
+              <div class="carta-producto col-sm">
+                <div class="imgBox">
+                  <img src="https://d7qztf2ityad6.cloudfront.net/23577/23577_pictures_product_visual_1.png?f=RB400,400"
+                    alt="GXT 856 Torac" class="img-productos-venta">
+                </div>
+                <div class="contentBox">
+                  <h3>GXT 856 Torac</h3>
+                  <h2 class="price">$<small>4.500</small></h2>
+                  <a href="#" data-id="2" class="buy">Comprar</a>
+                </div>
               </div>
-              <div class="contentBox">
-                <h3>GXT 980 Wireless</h3>
-                <h2 class="price">$<small>3.500</small></h2>
-                <a href="carrito.html" class="buy">Comprar</a>
-              </div>
-            </div>
 
-            <div id="mouse-970" class="carta-producto col-sm">
-              <div class="imgBox">
-                <img src="https://d7qztf2ityad6.cloudfront.net/23764/23764_pictures_product_visual_1.png?f=RB400,400"
-                  alt="GXT 970 Morfix" class="img-productos-venta">
-              </div>
-              <div class="contentBox">
-                <h3>GXT 970 Morfix</h3>
-                <h2 class="price">$<small>4.500</small></h2>
-                <a href="carrito.html" class="buy">Comprar</a>
-              </div>
-            </div>
-      </section>
 
-      <!-----------------------------MOSUE DE OFICINA----------------------------->
-      <hr class="hr-product-pd">
-      <h2 class="h2-productos-venta">Mouse de Oficina</h2>
-      <section class="section-productos-venta">
-        <div class="container productos">
-          <div class="row justify-content-center gap-5">
-            <div class="carta-producto  col-em">
-              <div class="imgBox">
-                <img src="https://d7qztf2ityad6.cloudfront.net/22879/22879_pictures_product_visual_1.png?f=RB400,400"
-                  alt="Verto Ergonomic" class="img-productos-venta">
-              </div>
-              <div class="contentBox">
-                <h3>Verto Ergonomic</h3>
-                <h2 class="price">$<small>2.000</small></h2>
-                <a href="carrito.html" class="buy">Comprar</a>
-              </div>
-            </div>
 
-            <div class="carta-producto col-sm">
-              <div class="imgBox">
-                <img src="https://d7qztf2ityad6.cloudfront.net/24059/24059_pictures_product_visual_1.png?f=RB400,400"
-                  alt="Puck Rechargeable" class="img-productos-venta">
+              <div class="carta-producto col-sm">
+                <div class="imgBox">
+                  <img src="https://d7qztf2ityad6.cloudfront.net/21839/21839_pictures_product_visual_1.png?f=RB400,400"
+                    alt="GXT 860 Thura" class="img-productos-venta">
+                </div>
+                <div class="contentBox">
+                  <h3>GXT 860 Thura</h3>
+                  <h2 class="price">$<small>6.500</small></h2>
+                  <a href="#" data-id="3" class="buy">Comprar</a>
+                </div>
               </div>
-              <div class="contentBox">
-                <h3>Puck Rechargeable</h3>
-                <h2 class="price">$<small>1.500</small></h2>
-                <a href="carrito.html" class="buy">Comprar</a>
-              </div>
-            </div>
 
-            <div class="carta-producto col-sm">
-              <div class="imgBox">
-                <img src="https://d7qztf2ityad6.cloudfront.net/24208/24208_pictures_product_visual_1.png?f=RB400,400"
-                  alt="Yvi Dual-Mode" class="img-productos-venta">
-              </div>
-              <div class="contentBox">
-                <h3>Yvi Dual-Mode</h3>
-                <h2 class="price">$<small>900</small></h2>
-                <a href="carrito.html" class="buy">Comprar</a>
-              </div>
-            </div>
-      </section>
+        </section>
 
-      <!-----------------------------MOUSEPAD----------------------------->
-      <hr class="hr-product-pd">
-      <h2 class="h2-productos-venta">Mousepad</h2>
-      <section class="section-productos-venta">
-        <div class="container productos">
-          <div class="row justify-content-center gap-5">
-            <div class="carta-producto  col-em">
-              <div class="imgBox">
-                <img src="https://d7qztf2ityad6.cloudfront.net/23646/23646_pictures_product_visual_1.png?f=RB400,400"
-                  alt="GXT 765 Glide RGB" class="img-productos-venta">
-              </div>
-              <div class="contentBox">
-                <h3>GXT 765 Glide RGB</h3>
-                <h2 class="price">$<small>1.000</small></h2>
-                <a href="carrito.html" class="buy">Comprar</a>
-              </div>
-            </div>
 
-            <div class="carta-producto col-sm">
-              <div class="imgBox">
-                <img src="https://d7qztf2ityad6.cloudfront.net/23395/23395_pictures_product_top_1.png?f=RB400,400"
-                  alt="GXT 764 Glide RGB" class="img-productos-venta">
-              </div>
-              <div class="contentBox">
-                <h3>GXT 764 Glide RGB</h3>
-                <h2 class="price">$<small>1.500</small></h2>
-                <a href="carrito.html" class="buy">Comprar</a>
-              </div>
-            </div>
+        <!----------------------------- MOUSE ----------------------------->
+        <hr class="hr-product-pd">
+        <h2 class="h2-productos-venta">Mouse Gamer</h2>
+        <section id="mouse" class="section-productos-venta">
+          <div class="container productos">
+            <div class="row justify-content-center gap-5">
 
-            <div class="carta-producto col-sm">
-              <div class="imgBox">
-                <img src="https://d7qztf2ityad6.cloudfront.net/21568/21568_pictures_product_visual_1.png?f=RB400,400"
-                  alt="GXT 756 Gaming XL" class="img-productos-venta">
+              <div class="carta-producto  col-em">
+                <div class="imgBox">
+                  <img src="https://d7qztf2ityad6.cloudfront.net/23758/23758_pictures_product_visual_1.png?f=RB400,400"
+                    alt="GXT 960 Graphin" class="img-productos-venta">
+                </div>
+                <div class="contentBox">
+                  <h3>GXT 960 Graphin</h3>
+                  <h2 class="price">$<small>3.000</small></h2>
+                  <a href="carrito.html" data-id="4" class="buy">Comprar</a>
+                </div>
               </div>
-              <div class="contentBox">
-                <h3>GXT 756 Gaming XL</h3>
-                <h2 class="price">$<small>900</small></h2>
-                <a href="carrito.html" class="buy">Comprar</a>
+
+
+
+              <div class="carta-producto col-sm">
+                <div class="imgBox">
+                  <img src="https://d7qztf2ityad6.cloudfront.net/24480/24480_pictures_product_visual_1.png?f=RB400,400"
+                    alt="GXT 980 Wireless" class="img-productos-venta">
+                </div>
+                <div class="contentBox">
+                  <h3>GXT 980 Wireless</h3>
+                  <h2 class="price">$<small>3.500</small></h2>
+                  <a href="carrito.html" data-id="5" class="buy">Comprar</a>
+                </div>
               </div>
-            </div>
-      </section>
+
+
+
+              <div class="carta-producto col-sm">
+                <div class="imgBox">
+                  <img src="https://d7qztf2ityad6.cloudfront.net/23764/23764_pictures_product_visual_1.png?f=RB400,400"
+                    alt="GXT 970 Morfix" class="img-productos-venta">
+                </div>
+                <div class="contentBox">
+                  <h3>GXT 970 Morfix</h3>
+                  <h2 class="price">$<small>4.500</small></h2>
+                  <a href="carrito.html" data-id="6" class="buy">Comprar</a>
+                </div>
+              </div>
+
+        </section>
+
+        <!-----------------------------MOSUE DE OFICINA----------------------------->
+        <section>
+          <hr class="hr-product-pd">
+          <h2 class="h2-productos-venta">Mouse de Oficina</h2>
+          <section class="section-productos-venta">
+            <div class="container productos">
+              <div class="row justify-content-center gap-5">
+
+                <div class="carta-producto  col-em">
+                  <div class="imgBox">
+                    <img
+                      src="https://d7qztf2ityad6.cloudfront.net/22879/22879_pictures_product_visual_1.png?f=RB400,400"
+                      alt="Verto Ergonomic" class="img-productos-venta">
+                  </div>
+                  <div class="contentBox">
+                    <h3>Verto Ergonomic</h3>
+                    <h2 class="price">$<small>2.000</small></h2>
+                    <a href="carrito.html" data-id="7" class="buy">Comprar</a>
+                  </div>
+                </div>
+
+
+
+                <div class="carta-producto col-sm">
+                  <div class="imgBox">
+                    <img
+                      src="https://d7qztf2ityad6.cloudfront.net/24059/24059_pictures_product_visual_1.png?f=RB400,400"
+                      alt="Puck Rechargeable" class="img-productos-venta">
+                  </div>
+                  <div class="contentBox">
+                    <h3>Puck Rechargeable</h3>
+                    <h2 class="price">$<small>1.500</small></h2>
+                    <a href="carrito.html" data-id="8" class="buy">Comprar</a>
+                  </div>
+                </div>
+                </template>
+
+
+                <div class="carta-producto col-sm">
+                  <div class="imgBox">
+                    <img
+                      src="https://d7qztf2ityad6.cloudfront.net/24208/24208_pictures_product_visual_1.png?f=RB400,400"
+                      alt="Yvi Dual-Mode" class="img-productos-venta">
+                  </div>
+                  <div class="contentBox">
+                    <h3>Yvi Dual-Mode</h3>
+                    <h2 class="price">$<small>900</small></h2>
+                    <a href="carrito.html" data-id="9" class="buy">Comprar</a>
+                  </div>
+                </div>
+
+          </section>
+
+          <!-----------------------------MOUSEPAD----------------------------->
+          <hr class="hr-product-pd">
+          <h2 class="h2-productos-venta">Mousepad</h2>
+          <section class="section-productos-venta">
+            <div class="container productos">
+              <div class="row justify-content-center gap-5">
+                <div id="10" class="carta-producto  col-em">
+                  <div class="imgBox">
+                    <img
+                      src="https://d7qztf2ityad6.cloudfront.net/23646/23646_pictures_product_visual_1.png?f=RB400,400"
+                      alt="GXT 765 Glide RGB" class="img-productos-venta">
+                  </div>
+                  <div class="contentBox">
+                    <h3>GXT 765 Glide RGB</h3>
+                    <h2 class="price">$<small>1.000</small></h2>
+                    <a href="carrito.html" data-id="10" class="buy">Comprar</a>
+                  </div>
+                </div>
+
+                <div class="carta-producto col-sm">
+                  <div class="imgBox">
+                    <img src="https://d7qztf2ityad6.cloudfront.net/23395/23395_pictures_product_top_1.png?f=RB400,400"
+                      alt="GXT 764 Glide RGB" class="img-productos-venta">
+                  </div>
+                  <div class="contentBox">
+                    <h3>GXT 764 Glide RGB</h3>
+                    <h2 class="price">$<small>1.500</small></h2>
+                    <a href="carrito.html" data-id="11" class="buy">Comprar</a>
+                  </div>
+                </div>
+
+                <div class="carta-producto col-sm">
+                  <div class="imgBox">
+                    <img
+                      src="https://d7qztf2ityad6.cloudfront.net/21568/21568_pictures_product_visual_1.png?f=RB400,400"
+                      alt="GXT 756 Gaming XL" class="img-productos-venta">
+                  </div>
+                  <div class="contentBox">
+                    <h3>GXT 756 Gaming XL</h3>
+                    <h2 class="price">$<small>900</small></h2>
+                    <a href="carrito.html" data-id="12" class="buy">Comprar</a>
+                  </div>
+                </div>
+          </section>
+        </section>
 
 
 

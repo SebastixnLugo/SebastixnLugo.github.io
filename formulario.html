@@ -27,83 +27,111 @@
     </nav>
   </section>
 
-
-  <section class="login">
-    <div class="login-box">
-      <h2>Ingresar</h2>
-      <form>
-        <div class="user-box">
-          <input type="text" name="username" placeholder="User" id="username" required>
-          <label>Usuario</label>
+  <section class="contenedor-del-contenedor">
+    <div class="contenedor" id="container">
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <h1 class="h1-form">Crea tu cuenta</h1>
+          <div class="social-container">
+            <a id="fb" href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a id="g" href="#" class="social"><i class="fa-brands fa-google"></i></a>
+            <a id="tw" href="#" class="social"><i class="fab fa-twitter"></i></a>
+          </div>
+          <span class="span-form">Podés usar tu email para registrarte</span>
+          <input type="text" placeholder="Nombre y apellido" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Contraseña" />
+          <button class="btn-formulario">Comencemos :)</button>
+        </form>
+      </div>
+      <div class="form-container sign-in-container">
+        <form action="#">
+          <h1 class="h1-form">Iniciá sesión</h1>
+          <div class="social-container">
+            <a id="fb" href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a id="g" href="#" class="social"><i class="fa-brands fa-google"></i></a>
+            <a id="tw" href="#" class="social"><i class="fab fa-twitter"></i></a>
+          </div>
+          <span class="span-form">¿Querés iniciar sesión con email?</span>
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Contraseña" />
+          <a id="contra" href="#">¿Olvidaste tu contraseña?</a>
+          <button class="btn-formulario">Ingresar</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1 class="h1-form">¡Bienvenido a </h1>
+            <h1 class="h1-form">Trust!</h1>
+            <p class="p-form">Para ingresar al sitio, necesitamos que nos dejes algunos datos. También podés utilizar tus redes para iniciar sesión</p>
+            <button class="btn-formulario ghost" id="signIn">Ya tengo cuenta</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1 class="h1-form">Bienvenido nuevamente a</h1>
+            <h1>Trust :)</h1>
+            <p class="p-form">Ingresá nuevamente tus datos de sesión y comenzá la experiencia Trust</p>
+            <button class="btn-formulario ghost" id="signUp">No tengo cuenta</button>
+          </div>
         </div>
-        <div class="user-box">
-          <input type="password" name="password" id="password" placeholder="Password" required>
-          <label>Contraseña</label>
-        </div>
-        <a href="exito.html">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          Enviar
-        </a>
-      </form>
+      </div>
     </div>
   </section>
+
 
 
   <!-----------------------------FOOTER----------------------------->
   <footer class="footer">
     <div class="cartita">
-        <div class="blob"></div>
-        <span class="img"></span>
-        <h2>Sebastián<br><span>Lugo</span></h2>
-        <p>
-            <a href="https://www.instagram.com/seba.lugo7/"> <i class="fa-brands fa-instagram fa-2xl"></i></a>
-            <a href="https://github.com/SebastixnLugo"><i class="fa-brands fa-github fa-2xl"></i></a>
-            <a href="https://www.linkedin.com/in/sebasti%C3%A1n-lugo-22a082236"><i
-                    class="fa-brands fa-linkedin fa-2xl"></i></a>
-        </p>
+      <div class="blob"></div>
+      <span class="img"></span>
+      <h2>Sebastián<br><span>Lugo</span></h2>
+      <p>
+        <a href="https://www.instagram.com/seba.lugo7/"> <i class="fa-brands fa-instagram fa-2xl"></i></a>
+        <a href="https://github.com/SebastixnLugo"><i class="fa-brands fa-github fa-2xl"></i></a>
+        <a href="https://www.linkedin.com/in/sebasti%C3%A1n-lugo-22a082236"><i
+            class="fa-brands fa-linkedin fa-2xl"></i></a>
+      </p>
     </div>
 
 
 
     <div class="centro-footer">
-        <a href="index.html"><img class="logo-footer"
-                src="https://dezlwerqy1h00.cloudfront.net/images/media/logo_trust_corporate_white.png"
-                alt="trust icon"></a>
-        <p class="p-centro">Seguinos en nuestras redes</p>
-        <div class="flex-center">
-            <a href="https://twitter.com/trustgamingla"><i class="fa fa-twitter fa-2x icon-3d"></i></a>
-            <a href="https://es-la.facebook.com/Trust.International/"><i
-                    class="fa fa-facebook fa-2x icon-3d"></i></a>
-            <a href="https://www.instagram.com/trustgaminglatam/?hl=es/"><i
-                    class="fa fa-instagram fa-2x icon-3d"></i></a>
-            <a href="https://www.youtube.com/channel/UCHsIdrDpns_aCEVj21gaTHQ"><i
-                    class="fa fa-youtube fa-2x icon-3d"></i></a>
-        </div>
+      <a href="index.html"><img class="logo-footer"
+          src="https://dezlwerqy1h00.cloudfront.net/images/media/logo_trust_corporate_white.png" alt="trust icon"></a>
+      <p class="p-centro">Seguinos en nuestras redes</p>
+      <div class="flex-center">
+        <a href="https://twitter.com/trustgamingla"><i class="fa fa-twitter fa-2x icon-3d"></i></a>
+        <a href="https://es-la.facebook.com/Trust.International/"><i class="fa fa-facebook fa-2x icon-3d"></i></a>
+        <a href="https://www.instagram.com/trustgaminglatam/?hl=es/"><i class="fa fa-instagram fa-2x icon-3d"></i></a>
+        <a href="https://www.youtube.com/channel/UCHsIdrDpns_aCEVj21gaTHQ"><i
+            class="fa fa-youtube fa-2x icon-3d"></i></a>
+      </div>
 
 
     </div>
 
     <div class="mapas">
-        <h2 class="h2-footer">Nuestra ubicación</h2>
-        <iframe class="maps"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6535509530636!2d-58.41292828255616!3d-34.58763179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb405fa9a36b%3A0x397f1acbba848f32!2sTrust%20Gaming!5e0!3m2!1ses-419!2sar!4v1647904116003!5m2!1ses-419!2sar"
-            width="260" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <h2 class="h2-footer">Nuestra ubicación</h2>
+      <iframe class="maps"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6535509530636!2d-58.41292828255616!3d-34.58763179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb405fa9a36b%3A0x397f1acbba848f32!2sTrust%20Gaming!5e0!3m2!1ses-419!2sar!4v1647904116003!5m2!1ses-419!2sar"
+        width="260" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
-</footer>
+  </footer>
 
-<div class="debajo-footer">
+  <div class="debajo-footer">
     <p class="p-debajo-footer">Trust © 2021 | Marca registrada | Todos los derechos reservados | Políticas
-        de
-        Privacidad
+      de
+      Privacidad
     </p>
     <p class="p-debajo-footer">Página creada por: Sebastián Lugo</p>
     <p class="p-debajo-footer">Esta página fue creada para un proyecto académico en CoderHouse, no tiene
-        fines
-        comerciales.</p>
-</div>
+      fines
+      comerciales.</p>
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/f5a964c1bc.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
